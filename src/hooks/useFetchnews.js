@@ -6,11 +6,7 @@ export const useFetchnews=(category)=>{
      async function apicall() {
         setLoading(true);
         try{
-           
-            const apiUrl = `https://gnews.io/api/v4/top-headlines?category=${category}&lang=en&country=in&max=50&apikey=cd2c12dc2a355c77cdd998c8de57c2cc`;
-            const encodedApiUrl = encodeURIComponent(apiUrl);
-            const proxyUrl = `https://api.allorigins.win/get?url=${encodedApiUrl}`;
-           const response=await fetch(proxyUrl);
+           const response=await fetch(`https://gnews.io/api/v4/top-headlines?category=${category}&lang=en&country=in&max=50&apikey=cd2c12dc2a355c77cdd998c8de57c2cc`);
            const datanews=await response.json();
        
            
