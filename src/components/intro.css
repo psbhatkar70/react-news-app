@@ -1,8 +1,3 @@
-/*
-  Add this to the top of your main CSS file, e.g., index.css
-*/
-
-/* 1. A common and effective CSS reset */
 * {
   margin: 0;
   padding: 0;
@@ -11,7 +6,6 @@
    
 }
 
-/* 2. Set up the height chain */
 html, body, #root {
   height: 100%;
 }
