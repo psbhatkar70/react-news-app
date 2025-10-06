@@ -1,0 +1,38 @@
+.mainnav{
+     width: 100%;
+   background-color: #0D1117;
+  padding: 1rem 0;
+  
+  display: flex;
+  justify-content: center; 
+}
+
+.navlist{
+    display: flex; 
+  flex-wrap: wrap;
+  gap: 1.5rem;  
+  
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navitem{
+      flex-shrink: 0;
+}
+
+.navbutton{
+    width: auto;
+    color: white;
+    font-size: 14px;
+}
+
+.navbutton:hover{
+    color: blue;
+}
+
+.navitem.active  {
+  font-weight: bold;
+  font-style: italic;
+border-bottom: 2px solid #ffffff;
+}

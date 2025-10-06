@@ -1,0 +1,104 @@
+/*
+  Add this to the top of your main CSS file, e.g., index.css
+*/
+
+/* 1. A common and effective CSS reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+   background-color: #0D1117;
+   
+}
+
+/* 2. Set up the height chain */
+html, body, #root {
+  height: 100%;
+}
+
+.main{
+    height: 100dvh;
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.top{
+    color: #E6EDF3;
+    font-size: larger;
+    margin-bottom: 1%;
+    text-align: center;
+    padding: 0 10%;
+}
+.top2{
+  color: white;
+    font-size: 28px;
+    margin-bottom: 30px;
+    text-align: center;
+    padding: 0 10%;
+    font-weight: 650;
+}
+.butn{
+  background: linear-gradient(90deg, #00C896, #3B82F6);
+  color: #fff;
+  padding: 0.75rem 1.5rem;
+  border-radius: 50px;
+  font-weight: 600;
+  transition: all 1s ease;
+}
+.butn:hover{
+  background: linear-gradient(90deg, #3B82F6, #00C896);
+transform: scale(1.03);
+}
+.content-box{
+     color: #E6EDF3;
+ padding: 4px;
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: 12px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  margin-bottom: 15px;
+  width: 250px;
+  margin-left: 10px;
+}
+.content-box:hover{
+  transform: translateY(-4px);
+box-shadow: 0 6px 16px rgba(0, 0, 0, 0.3);
+
+}
+.carousel-container{
+  width: 100vw;
+  display: flex;
+   justify-content: space-evenly;
+}
+.carousel-container2{
+  margin-top: 10px;
+  width: 100vw;
+  display: flex;
+   justify-content: center;
+}
+.head{
+  font-weight: 600;
+  font-size: larger;
+  text-align: center;
+color: #E6EDF3;
+margin-bottom: 5px;
+text-shadow: 0 0 10px rgba(59,130,246,0.4);
+ 
+}
+.headdetail{
+  margin-left: 2px;
+}
+.divider{
+  height: 2px;
+  background: linear-gradient(to right, #00C896, #3B82F6);
+  border-radius: 2px;
+}
+
+.mainname{
+  font-size: 32px;
+  font-weight: 550;
+  font-style: italic;
+  
+}
