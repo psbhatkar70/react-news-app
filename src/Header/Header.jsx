@@ -6,7 +6,6 @@ import './headerstyle.css'
 function Header() {
     const navigate=useNavigate();
      const location = useLocation();
-     console.log("hello")
     const navItems=[
          {
             name: 'General',
