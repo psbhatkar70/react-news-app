@@ -1,7 +1,6 @@
-import { useState } from 'react'
 import './App.css'
 import Intro from './components/Intro'
-import { Link ,Routes, Route, data, Outlet} from 'react-router-dom'
+import { Link ,Routes, Route, Outlet} from 'react-router-dom'
 import News from './components/News'
 import Header from './Header/Header'
 import MainLayout from './components/MainLayout'
