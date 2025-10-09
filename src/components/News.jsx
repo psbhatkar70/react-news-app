@@ -1,11 +1,11 @@
-import React, { useRef, useState , useEffect} from 'react'
+import React, {  useState } from 'react'
 import { useFetchnews } from '../hooks/useFetchnews'
 
 import './news.css'
 import { useParams } from 'react-router-dom';
 export default function News() {
   const params = useParams();
-  const category= params.categoryName || '/general'
+  const category= params.categoryName || 'general'
   const [initial,setInitial]=useState(0);
   const {articles, loading}=useFetchnews(category);
    

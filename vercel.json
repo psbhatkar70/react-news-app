@@ -1,8 +1,8 @@
 {
   "rewrites": [
     {
-      "source": "/api/:path*",
-      "destination": "https://gnews.io/api/v4/:path*"
+      "source": "/api/top-headlines",
+      "destination": "https://gnews.io/api/v4/top-headlines"
     },
     {
       "source": "/((?!api/).*)",
