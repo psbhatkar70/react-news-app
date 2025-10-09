@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 
 export const useFetchnews=(category)=>{
     const apikey=import.meta.env.VITE_GNEWS_API_KEY;
+    console.log("hello")
     const [articles,setArticles]=useState([])
     const [loading,setLoading]=useState(true);
      async function apicall() {
