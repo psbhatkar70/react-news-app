@@ -1,7 +1,7 @@
 {
   "rewrites": [
     {
-      "source": "/api/top-headlines",
+      "source": "/api/v4/top-headlines",
       "destination": "https://gnews.io/api/v4/top-headlines"
     },
     {
