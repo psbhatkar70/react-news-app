@@ -94,6 +94,7 @@ export default function Intro() {
             </div>
 
        <div
+       class="divbutn"
        >
         
         <Link to="/general"

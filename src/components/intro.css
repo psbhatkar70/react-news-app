@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box; 
-   background-color: #0D1117;
+  background-color: #0D1117;
    
 }
 
@@ -11,7 +11,7 @@ html, body, #root {
 }
 
 .main{
-    height: 100dvh;
+   min-height: 100vh;
    
     display: flex;
     flex-direction: column;
@@ -95,4 +95,50 @@ text-shadow: 0 0 10px rgba(59,130,246,0.4);
   font-weight: 550;
   font-style: italic;
   
+}
+@media (max-width: 768px) {
+
+  .carousel-container {
+    width: 100%; /* Change this from 100vw */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .carousel-container2 {
+    margin-top: 10px;
+    width: 100%; /* Change this from 100vw */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .top {
+    color: #E6EDF3;
+    width: 100%;
+    font-size: 12px;
+    
+  }
+  .top2{
+  color: white;
+    font-size: 18px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-align: center;
+    padding: 0 10%;
+    font-weight: 600;
+}
+.butn{
+  background: linear-gradient(90deg, #00C896, #3B82F6);
+  color: #fff;
+  padding: 0.75rem 1.5rem;
+  border-radius: 50px;
+  font-weight: 600;
+  transition: all 1s ease;
+}
+.divbutn{
+  margin-bottom: 50px;
+}
 }
