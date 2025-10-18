@@ -7,14 +7,23 @@
   justify-content: center; 
 }
 
-.navlist{
-    display: flex; 
-  flex-wrap: wrap;
-  gap: 1.5rem;  
-  
+.navlist {
+  display: flex; 
   list-style-type: none;
   margin: 0;
   padding: 0;
+  gap: 1.5rem;   
+  
+  /* --- KEY CHANGES --- */
+
+  /* 1. Prevent items from wrapping to the next line */
+  flex-wrap: nowrap;
+
+  /* 2. Enable horizontal scrolling ONLY when needed */
+  overflow-x: auto;
+
+  /* 3. (Optional but good for UX) Adds smooth momentum scrolling on iOS */
+  -webkit-overflow-scrolling: touch;
 }
 
 .navitem{
